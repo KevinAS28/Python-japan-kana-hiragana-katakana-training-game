@@ -1,0 +1,9 @@
+#!/usr/bin/python
+import random, os
+hiraganaa = 1
+with open("hiragana", "r") as reader:
+ hiraganaa = reader.read()
+def hiragana(x=0, y=5, z=10):
+ a = hiraganaa.split(", ")[0:random.randrange(x, y)]
+ for i in range(z):
+  	 
